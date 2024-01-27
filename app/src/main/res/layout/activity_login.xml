@@ -41,6 +41,7 @@
 
                 </ImageView>
             <EditText
+                android:id="@+id/edit_account_l"
                 android:layout_marginLeft="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -70,6 +71,7 @@
 
             </ImageView>
             <EditText
+                android:id="@+id/edit_pwd_l"
                 android:layout_marginLeft="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -81,6 +83,7 @@
         </LinearLayout>
         </LinearLayout>
     <Button
+        android:id="@+id/btn_login_l"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:background="@drawable/big_btn"
